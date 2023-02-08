@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>volunteer Form</h1>
-        <form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php"></form>
+        <form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
             <fieldset>
                 <legend>Personal Info</legend>
                 <div>
@@ -60,7 +60,10 @@
                 <br>
                 <label>Any Comments?</label>
                 <br>
-                <textarea cols="60" rows="10" name="comments_field" placeholder="Submit any comments here..."></textarea>
+                <textarea cols="60" rows="10" name="comments_field" placeholder="Submit any comments here"></textarea>
             </fieldset>
+            <input type="hidden" name="hidden_field" value="bmolloy" data-np-invisible="1" data-np-checked="1">
+            <input type="submit" value="Send Me" data-np-checked="1">
+        </form>
     </body>
 </html>
